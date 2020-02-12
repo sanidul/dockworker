@@ -15,7 +15,7 @@ public class SampleController {
 
     @GetMapping("/hello")
     public ResponseEntity getHelloMessage() {
-        return ResponseEntity.ok("Hello World works V2");
+        return ResponseEntity.ok("Hello World works V2 - Auto");
     }
 
     @Autowired
